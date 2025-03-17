@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Bem-vindo ao Paraíso dos Pães! Oferecemos pães frescos, bolos caseiros e doces irresistíveis. Visite-nos e experimente o melhor da padaria artesanal."
+    />
+    <meta name="keywords" content="padaria, pães, bolos, doces, artesanal, frescos" />
+    <meta name="author" content="Paraíso dos Pães" />
+    <title>Paraíso dos Pães | Pães, Bolos e Doces Artesanais</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body class="bg-pastel-yellow text-pastel-brown">
+    <header class="bg-pastel-pink shadow-md">
+      <div class="container mx-auto px-4">
+        <nav class="grid grid-cols-1 md:grid-cols-2 gap-4 py-4">
+          <div class="flex justify-center md:justify-start">
+            <a href="/" class="text-2xl font-bold">Paraíso dos Pães</a>
+          </div>
+    
+          <ul class="flex justify-center md:justify-end space-x-4 md:space-x-6">
+            <li><a href="#inicio" class="hover:text-pastel-brown">Início</a></li>
+            <li><a href="#produtos" class="hover:text-pastel-brown">Produtos</a></li>
+            <li><a href="#sobre" class="hover:text-pastel-brown">Sobre Nós</a></li>
+            <li><a href="#contato" class="hover:text-pastel-brown">Contato</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section id="inicio" class="bg-pastel-green py-20">
+      <div class="container mx-auto px-4 text-center">
+        <h1 class="text-4xl font-bold mb-4">Bem-vindo ao Paraíso dos Pães</h1>
+        <p class="text-xl mb-8">Experimente nossos pães frescos, bolos caseiros e doces irresistíveis.</p>
+        <a href="#produtos" class="bg-pastel-pink text-pastel-brown px-6 py-3 font-bold rounded-lg hover:bg-pastel-yellow-dark transition-colors">
+          Conheça nossos produtos
+        </a>
+      </div>
+    </section>
+
+    <section id="produtos" class="py-16">
+      <div class="container mx-auto px-4">
+        <h2 class="text-3xl font-bold text-center mb-8">Nossos Produtos</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+            <img
+              src="https://placehold.co/400x300"
+              alt="Pães frescos"
+              class="w-full h-48 object-cover"
+            />
+            <div class="p-6">
+              <h3 class="text-xl font-bold mb-2">Pães Frescos</h3>
+              <p class="text-gray-700">Feitos diariamente com ingredientes naturais e muito amor.</p>
+            </div>
+          </div>
+
+          <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+            <img
+              src="https://placehold.co/400x300"
+              alt="Bolos caseiros"
+              class="w-full h-48 object-cover"
+            />
+            <div class="p-6">
+              <h3 class="text-xl font-bold mb-2">Bolos Caseiros</h3>
+              <p class="text-gray-700">Deliciosos bolos para todas as ocasiões.</p>
+            </div>
+          </div>
+
+          <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+            <img
+              src="https://placehold.co/400x300"
+              alt="Doces irresistíveis"
+              class="w-full h-48 object-cover"
+            />
+            <div class="p-6">
+              <h3 class="text-xl font-bold mb-2">Doces Irresistíveis</h3>
+              <p class="text-gray-700">Experimente nossos doces feitos com carinho.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="sobre" class="bg-pastel-pink py-16">
+      <div class="container mx-auto px-4">
+        <h2 class="text-3xl font-bold text-center mb-8">Sobre Nós</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+          <div>
+            <img
+              src="https://placehold.co/500x300"
+              alt="Sobre Nós"
+              class="w-full rounded-lg shadow-lg"
+            />
+          </div>
+          <div>
+            <p class="mb-4">
+              A <strong>Paraíso dos Pães</strong> nasceu da paixão por pães frescos e doces caseiros. Nossa missão é
+              proporcionar momentos especiais com produtos feitos com ingredientes de alta qualidade e muito carinho.
+            </p>
+            <p>Visite-nos e descubra o sabor que só o Paraíso dos Pães pode oferecer!</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contato" class="py-16">
+      <div class="container mx-auto px-4">
+        <h2 class="text-3xl font-bold text-center mb-8">Entre em Contato</h2>
+        <div class="max-w-lg mx-auto">
+          <form class="bg-white p-8 rounded-lg shadow-lg">
+            <div class="mb-4">
+              <label for="name" class="block text-gray-700 mb-2">Nome</label>
+              <input
+                type="text"
+                id="name"
+                class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-pastel-pink"
+                required
+              />
+            </div>
+            <div class="mb-4">
+              <label for="email" class="block text-gray-700 mb-2">E-mail</label>
+              <input
+                type="email"
+                id="email"
+                class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-pastel-pink"
+                required
+              />
+            </div>
+            <div class="mb-4">
+              <label for="message" class="block text-gray-700 mb-2">Mensagem</label>
+              <textarea
+                id="message"
+                rows="4"
+                class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-pastel-pink"
+                required
+              ></textarea>
+            </div>
+            <button
+              type="submit"
+              class="w-full bg-pastel-pink text-pastel-brown px-6 py-3 rounded-lg hover:bg-pastel-yellow-dark transition-colors"
+            >
+              Enviar Mensagem
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-pastel-green py-6">
+      <div class="container mx-auto px-4 text-center">
+        <p>&copy; 2025 Paraíso dos Pães. Todos os direitos reservados.</p>
+      </div>
+    </footer>
+  </body>
+</html>

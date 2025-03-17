@@ -1,0 +1,24 @@
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.bg-pastel-yellow {
+  background-color: #f9f7f3;
+}
+.bg-pastel-pink {
+  background-color: #f8e9e9;
+}
+.bg-pastel-green {
+  background-color: #e6f4e6;
+}
+.text-pastel-brown {
+  color: #6b4f4f;
+}
+.hover\:bg-pastel-yellow-dark:hover {
+  background-color: #e0d8c7;
+}
